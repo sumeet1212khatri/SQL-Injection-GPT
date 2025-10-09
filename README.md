@@ -3,7 +3,10 @@
 ```
 https://colab.research.google.com/drive/1fkrAFCv32xtX1ralzYKAw522NoN0kzGn?usp=sharing
 ```
-
+Hugging Face dataset link 
+```
+https://huggingface.co/datasets/PurpleAILAB/chatML_SQL_injection_dataset
+```
 
 <img width="562" height="455" alt="image" src="https://github.com/user-attachments/assets/11c68857-f4d4-47f8-b56f-b6f5ee08ba34" />
 
