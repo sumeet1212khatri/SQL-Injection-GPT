@@ -5,6 +5,11 @@ https://colab.research.google.com/drive/1fkrAFCv32xtX1ralzYKAw522NoN0kzGn?usp=sh
 ```
 
 
+<img width="562" height="455" alt="image" src="https://github.com/user-attachments/assets/11c68857-f4d4-47f8-b56f-b6f5ee08ba34" />
+
+
+
+
 📖 About The Project
 QueryBot is an educational project aimed at building a small yet powerful language model (SLM) from scratch. Inspired by Andrej Karpathy's nanoGPT, this project implements a standard GPT (Generative Pre-trained Transformer) architecture and fine-tunes it on the specific domain of SQL queries.
 
