@@ -38,11 +38,6 @@ Follow these steps to get the project up and running on your local machine.
 Prerequisites
 Ensure you have Python 3.10 or later and pip installed.
 
-Installation
-Clone the repository:
-
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
 
 Install the required packages:
 
@@ -59,27 +54,13 @@ Run the training script to train the model from scratch. The best model will be 
 💡 Usage Example
 Once the model is trained, you can use it to generate answers to your SQL questions. Here’s a quick example:
 
-import torch
-import tiktoken
-from model import GPT, GPTConfig # Assume your model classes are in model.py
----
-# Setup
----
-device = 'cuda' if torch.cuda.is_available() else 'cpu'
-enc = tiktoken.get_encoding("gpt2")
----
-#  Load Model 
----
-config = GPTConfig() # Use the same config as training
-model = GPT(config)
-model.load_state_dict(torch.load('best_model_params_sql.pt', map_location=device))
-model.to(device)
-model.eval()
 ---
 #  Generate Response 
 ---
 prompt = "USER: What are the main types of SQL injection?\nASSISTANT: "
+
 start_ids = enc.encode(prompt)
+
 x = (torch.tensor(start_ids, dtype=torch.long, device=device)[None, ...])
 
 with torch.no_grad():
