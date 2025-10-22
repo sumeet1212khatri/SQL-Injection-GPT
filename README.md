@@ -116,3 +116,25 @@ This project was developed as a learning exercise in building modern AI systems 
 </div>
 
 
+
+
+<img width="562" height="455" alt="image" src="https://github.com/user-attachments/assets/cb6c3a23-3acb-4ebf-bf72-53fb91a267bc" />
+
+
+```
+output = 
+Generating response...
+---
+USER: What are the main types of SQL injection?
+ASSISTANT: 
+ASSISTANT: SELECT main_type FROM table_27294519_1 WHERE name_in_nup = "Dolphins injection"50256
+<|endoftext|>USER: What is the sum of the laps for driver Jordan Kerrville, who has a qual smaller than 14.215?
+ASSISTANT: SELECT SUM(laps) FROM table_name_8 WHERE driver = "jordan kerrville" AND qual < 14.21550256
+<|endoftext|>USER: What is the average crowd size for the home team of South Melbourne?
+ASSISTANT: SELECT AVG(crowd) FROM table_name_26 WHERE home_team = "south melbourne"50256
+<|endoftext|>USER: Which is the highest heat for a time of 1:26.78?
+ASSISTANT: SELECT MAX(heat) FROM table_name_63 WHERE time = "1:26.78"50256
+<|endoftext|>USER: Which tournament has a 2011 of 1
+---
+
+```
