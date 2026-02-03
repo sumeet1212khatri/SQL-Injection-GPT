@@ -10,7 +10,7 @@ https://huggingface.co/datasets/PurpleAILAB/chatML_SQL_injection_dataset
 
 ## Custom-Trained SQL Language Model (10M GPT)
 
-A compact, 10M-parameter decoder-only transformer model architected from scratch in PyTorch and trained on a single consumer GPU to generate syntactically correct SQL queries from natural language.
+A compact, 30M-parameter decoder-only transformer model architected from scratch in PyTorch and trained on a single consumer GPU to generate syntactically correct SQL queries from natural language.
 
 ### 1. 🚀 Features
 
